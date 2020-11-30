@@ -31,7 +31,7 @@ class MainActivity : AppCompatActivity() {
             }.also {
                 startActivity(it)
             }
-        }, prefs.getLong("timeout", 10000))
+        }, prefs.getLong("timeout", 6000))
     }
 
     override fun onWindowFocusChanged(hasFocus: Boolean) {
